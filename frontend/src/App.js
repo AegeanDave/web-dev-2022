@@ -1,10 +1,14 @@
 import './App.css';
+import Amiibos from './components/Amiibos';
+import Header from './components/Header';
+import SearchBar from './components/SearchBar';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Amiibo Finder</h1>
-      
+    <div className="container has-background-light ">
+      <Header />
+      <SearchBar />
+      <Amiibos />
     </div>
   );
 }

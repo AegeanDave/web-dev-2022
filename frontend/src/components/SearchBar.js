@@ -5,21 +5,21 @@ const SearchBar = () => {
         <div className='section has-background-primary-light'>
             <div className='field'>
                 <label className='label'>Search by Name</label>
-                <div class="control">
-                    <input class="input" type="text" placeholder="Text input" />
+                <div className="control">
+                    <input className="input" type="text" placeholder="Text input" />
                 </div>
             </div>
             <div className='field'>
                 <label className='label'>Search by Tag</label>
-                <div class="control">
-                    <input class="input" type="text" placeholder="Text input" />
+                <div className="control">
+                    <input className="input" type="text" placeholder="Text input" />
                 </div>
             </div>
 
-            <div class="field">
-                <label class="label">Filter by Type</label>
-                <div class="control">
-                    <div class="select">
+            <div className="field">
+                <label className="label">Filter by Type</label>
+                <div className="control">
+                    <div className="select">
                         <select>
                             <option>Select dropdown</option>
                             <option>options</option>

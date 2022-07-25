@@ -1,24 +1,27 @@
 import React from 'react';
 import Tag from './Tag';
 
-const Amiibo = () => {
+const Amiibo = ({ amiibo }) => {
+    
+    const { name, gameSeries, image } = amiibo
+    
     return (
 
         <div className='column is-3'>
             <div className="notification is-info">
-                <figure className="image is-square my-3">
-                    <img src="https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00000000-00000002.png" />
+                <figure className="image is-square mb-3 mx-3">
+                    <img src={image} />
                 </figure>
-                <p className="title is-4">Mario</p>
-                <p className="subtitle is-5">Super Smash Bros.</p>
+                <p className="title is-6">{ name}</p>
+                <p className="subtitle is-6">{ gameSeries}</p>
                 <div className='columns is-multiline is-1 is-variable'>
                     <Tag />
                     <Tag />
                     <Tag />
                     <Tag />
                 </div>
-                <div class="control">
-                    <input class="input" type="text" placeholder="add new tag" />
+                <div className="control">
+                    <input className="input" type="text" placeholder="add new tag" />
                 </div>
             </div>
         </div>

@@ -25,6 +25,7 @@ Implement the part of user-defined tags and the function of searching by tag.
 * Multiple filters can be applied at the same time and are AND related.
 * Filtering can be done on the front-end or back-end depending on your preference.
 * Tags are not required to be saved in the backend or frontend, and the user data is completely cleared after the page is refreshed.
+* Styling will not be taken into consideration
 
 
 ## Environment

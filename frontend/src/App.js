@@ -6,7 +6,7 @@ import SearchBar from './components/SearchBar';
 
 const API = "http://localhost:3001/amiibo"
 
-const searchKeysInit = {name: "", tag: [], type: ""}
+const searchKeysInit = {name: "", tag: "", type: ""}
 
 function App() {
 
